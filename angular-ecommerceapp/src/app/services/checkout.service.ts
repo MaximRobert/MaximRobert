@@ -19,26 +19,16 @@ export class CheckoutService {
   // getOrderItems(): Observable<Product[]> {
   //   return null;//this.httpClient.get<Product[]>(`http://localhost:8080/api/products?category_id=${categoryId}`)
   // }
+  //
 
 
   listOrderItems() {
-    return this.httpClient.get('http://localhost:8080/api/categories');
+    // return this.httpClient.get('http://localhost:8080/api/categories');
   }
 
 
   listProductDetailPage(id: number){
-    return this.httpClient.get(`http://localhost:8080/api/products/${id}`)
+    // return this.httpClient.get(`http://localhost:8080/api/products/${id}`)
   }
 
 }
-
-// }
-// interface GetResponse {
-//   content: {
-//     products: Product[]
-//   };
-//   totalElements: number;
-//   totalPages: number;
-//   size: number;
-//   number: number;
-// }
